@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CRUD com Bootstrap e jQuery</title>
+  <title>Lista de Tarefas</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
@@ -11,12 +11,12 @@
     <form id="taskForm">
       <input type="hidden" id="taskId">
       <div class="form-group">
-        <label>Título</label>
-        <input type="text" class="form-control" id="title" required>
+        <label>Tarefa</label>
+        <input type="text" class="form-control" placeholder="Digite sua tarefa" id="title" required>
       </div>
       <div class="form-group">
         <label>Descrição</label>
-        <textarea class="form-control" id="description" required></textarea>
+        <textarea class="form-control" placeholder="Digite a descrição da sua tarefa" id="description" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Salvar</button>
     </form>
@@ -25,7 +25,7 @@
       <thead>
         <tr>
           <th>ID</th>
-          <th>Título</th>
+          <th>Tarefa</th>
           <th>Descrição</th>
           <th>Ações</th>
         </tr>
