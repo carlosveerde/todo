@@ -13,9 +13,15 @@ A seguinte aplicação se trata de um CRUD de uma lista de tarefas feita para um
 
 <h2>Tecnologias utilizadas:</h2>
 
-- [Laravel](https://laravel.com/).
-- [Bootstrap](https://getbootstrap.com/).
+- [Laravel](https://laravel.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Jquery](https://jquery.com/)
-- [XAMPP](https://www.apachefriends.org/pt_br/index.html).
-- [MySQL](https://www.mysql.com/).
-- [Apache](https://www.mysql.com/).
+- [XAMPP](https://www.apachefriends.org/pt_br/index.html)
+- [MySQL](https://www.mysql.com/)
+- [Apache](https://httpd.apache.org/)
+
+## Instruções para execução
+
+- Executar
+<p> Verifique no arquivo .env se as configurações de banco de dados estão corretas, caso não esteja, altere para as configurações do seu banco de dados.</p>
+<img src="https://uploaddeimagens.com.br/images/004/590/265/full/rodar_o_projeto.png?1693224874" width="400" alt="Instruções"></a></p>
