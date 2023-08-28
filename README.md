@@ -21,7 +21,21 @@ A seguinte aplicação se trata de um CRUD de uma lista de tarefas feita para um
 - [Apache](https://httpd.apache.org/)
 
 ## Instruções para execução
+<p> Com o XAMPP inicie o Apache e o MySQL</p>
+<img src="https://uploaddeimagens.com.br/imagens/AeM63Zg" width="400" alt="Instruções XAMPP"></a>
 
-- Executar
-<p> Verifique no arquivo .env se as configurações de banco de dados estão corretas, caso não esteja, altere para as configurações do seu banco de dados.</p>
-<img src="https://uploaddeimagens.com.br/images/004/590/265/full/rodar_o_projeto.png?1693224874" width="400" alt="Instruções"></a></p>
+<p> Verifique no arquivo .env se as configurações de banco de dados estão corretas, caso não estejam, altere para as configurações do seu banco de dados.</p>
+<img src="https://uploaddeimagens.com.br/images/004/590/265/full/rodar_o_projeto.png?1693224874" width="400" alt="Instruções .env"></a>
+
+<p> Abra o terminal na pasta do projeto e execute o comando "php artisan migrate" para criar as tabelas no banco de dados.</p>
+<img src="https://uploaddeimagens.com.br/imagens/rqgDWXI" width="400" alt="Instruções migrate"></a>
+
+<p> No seu navegador, digite o endereço do DB_HOST no seu navegador e o projeto irá iniciar</p>
+<img src="https://uploaddeimagens.com.br/imagens/yejoh0E" width="400" alt="Instruções endereço"></a>
+
+
+
+
+
+
+
